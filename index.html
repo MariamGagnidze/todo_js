@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="todo">
+      <div class="logo">
+        <h1>TODO</h1>
+        <div class="icon"></div>
+        <div class="icon1" style="display: none"></div>
+      </div>
+      <div class="card">
+        <input id="input" type="text" placeholder="Create a new todo…" />
+        <div class="box">
+          <ul id="box_ul">
+            <li id="todoList"></li>
+          </ul>
+          <div class="box_box">
+            <div id="left"><span id="num">0</span> items left</div>
+            <div class="buttons">
+              <button id="all">All</button>
+              <button id="actives">Active</button>
+              <button id="completed">Completed</button>
+            </div>
+            <button id="clear">Clear Completed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
